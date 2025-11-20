@@ -42,7 +42,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: dockerashu/webapp-roche-final
+        image: dockerdass/webapp-roche-final
         tags: v1, latest
         registry: docker.io
         dockerfile: webapp-code/Dockerfile
